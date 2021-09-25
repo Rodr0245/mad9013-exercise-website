@@ -1,1 +1,89 @@
-/* Nothing yet */
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
+.hero{
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/banners/hero-home.jpg);
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    font-family:sans-serif;
+    text-align: center;
+    padding-bottom: 5rem;
+    padding-top: 6rem;
+    margin:0;
+}
+.cta{
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/banners/soccer-banner-bw.jpg);
+    background-size:100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: white;
+    font-family:sans-serif;
+    text-align: center;
+    padding-bottom: 5rem;
+    padding-top: 6rem;
+    margin: 0;
+}
+.h2s{
+    text-transform:uppercase;
+    font-weight:normal;
+    font-size: 1.2rem;
+}
+.btn {
+    display: inline-block;
+    background-color: transparent;
+    border: .124rem solid #319b86;
+    color: #319b86;
+    text-decoration: none;
+    border-radius: 1rem;
+    padding: 0.5em 2em;
+    transition-duration: 0.5s;
+}
+.btn:hover {
+    color:white;
+    background-color: #1c574b;
+    transform: scale(1.1); 
+    animation: 3s ease-out 0s;
+    box-shadow: 0rem 0.5em 1.8rem rgb(0, 0, 0);
+}
+.btn:focus {
+    background-color: #638c84;
+    box-shadow: 0rem 0.5em 1.8rem rgb(0, 0, 0);
+    outline: none !important;
+    color: white;
+}
+.btn:active {
+    background:linear-gradient(rgba(0, 0, 0, 0.5), #638c84);
+    color:whitesmoke;
+}
+.btnWhite {
+    display: inline-block;
+    background-color: transparent;
+    border: .124rem solid #ffffff;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 1rem;
+    padding: 0.5em 2em;
+    transition-duration: 0.5s;
+}
+.btnWhite:hover {
+    color:white;
+    background-color: #1c574b;
+    transform: scale(1.1); 
+    animation: 3s ease-out 0s;
+    box-shadow: 0rem 0.5em 1.8rem rgb(0, 0, 0);
+}
+.btnWhite:focus {
+    background-color: #638c84;
+    box-shadow: 0rem 0.5em 1.8rem rgb(0, 0, 0);
+    outline: none !important;
+    color: white;
+}
+.btnWhite:active {
+    background:linear-gradient(rgba(0, 0, 0, 0.5), #638c84);
+    color:whitesmoke;
+}
+
