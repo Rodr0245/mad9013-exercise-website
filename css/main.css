@@ -1,46 +1,51 @@
 
 html, body {
     margin: 0;
-    padding: 0;
 }
-.hero{
+.banner{
     background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/banners/hero-home.jpg);
-    background-size:100%;
+    background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
     color: white;
     font-family:sans-serif;
     text-align: center;
-    padding-bottom: 5rem;
-    padding-top: 6rem;
+    padding-top: 10rem;
+    padding-bottom:12rem;
     margin:0;
+    
 }
-.cta{
-    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/banners/soccer-banner-bw.jpg);
-    background-size:100%;
-    background-repeat: no-repeat;
+.banner p{
+    margin: 1rem auto;
+    font-size: 2vw;
+}
+.bannerFooter{
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/banners/soccer-banner-bw.jpg); 
+    background-size:cover;
     background-position: center;
-    color: white;
-    font-family:sans-serif;
-    text-align: center;
-    padding-bottom: 5rem;
-    padding-top: 6rem;
-    margin: 0;
+    background-repeat: no-repeat;
 }
+    
+
 .h2s{
     text-transform:uppercase;
     font-weight:normal;
-    font-size: 1.2rem;
+    font-size: 4vw;
+    display: block;
+    max-width: 70%;
+    margin: 0 auto;
 }
-.btn {
+
+.btn{
     display: inline-block;
     background-color: transparent;
-    border: .124rem solid #319b86;
+    border: 0.2rem solid #319b86;
     color: #319b86;
     text-decoration: none;
-    border-radius: 1rem;
+    border-radius: 2rem;
     padding: 0.5em 2em;
     transition-duration: 0.5s;
+    margin: 0.5rem;
 }
 .btn:hover {
     color:white;
@@ -60,30 +65,82 @@ html, body {
     color:whitesmoke;
 }
 .btnWhite {
-    display: inline-block;
-    background-color: transparent;
-    border: .124rem solid #ffffff;
+    border: 0.2rem solid #ffffff;
     color: #ffffff;
-    text-decoration: none;
-    border-radius: 1rem;
-    padding: 0.5em 2em;
-    transition-duration: 0.5s;
+    margin: 1rem auto;
+    font-size: 2vw;
 }
-.btnWhite:hover {
-    color:white;
-    background-color: #1c574b;
-    transform: scale(1.1); 
-    animation: 3s ease-out 0s;
-    box-shadow: 0rem 0.5em 1.8rem rgb(0, 0, 0);
-}
-.btnWhite:focus {
-    background-color: #638c84;
-    box-shadow: 0rem 0.5em 1.8rem rgb(0, 0, 0);
-    outline: none !important;
-    color: white;
-}
-.btnWhite:active {
-    background:linear-gradient(rgba(0, 0, 0, 0.5), #638c84);
-    color:whitesmoke;
+.preview h2{
+    font-family: sans-serif;
+    font-size: 2.5vw;
+    text-align: center;
+    max-width: 40%;
+    min-width: 40%;
+    margin: 0 auto;
+    line-height:1.5;
 }
 
+.preview p{
+    font-family: sans-serif;
+    font-size: 1.5vw;
+    text-align: center;
+    max-width: 45%;
+    min-width: 40%;
+    margin: 0 auto;
+    margin-top: 1rem;
+    line-height:1.5;
+}
+.preview img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 40%;
+}
+h1{
+    font-size: 1.383rem;
+    text-transform:uppercase;
+    color: #2b6c5f;
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight:normal;
+    text-align: center;
+}  
+h2{
+    font-size: 1.296rem;
+    font-weight: normal;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    margin-left: 1rem;
+}
+h3 {
+    font-size: 1.215rem;
+    font-family: sans-serif;
+    margin-left: 1rem;
+    font-weight: bold;
+}
+h4 {
+    font-size: 1.138rem;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    margin-left: 1rem;
+}
+h5 {
+    font-size: 1.067rem;
+    color: #2b6c5f;
+    font-family: sans-serif;
+    margin-left: 1rem;
+    border-bottom: 0.01rem solid rgb(181, 181, 181);
+}
+h6{
+    font-size: 0.90rem;
+    font-family: sans-serif;
+    margin-left: 1rem;
+    text-transform: uppercase;
+    font-weight: normal;
+}
+
+small{
+    font-size: 0.889rem;
+    font-family: sans-serif;
+    margin-left: 1rem;  
+}
