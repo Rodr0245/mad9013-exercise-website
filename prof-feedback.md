@@ -18,3 +18,19 @@ Great work! A few suggestions to simplify your code:
 - The same concept can be applied to the banners as a whole. create a basic `.banner` class that applies basic styles like alignment, color, etc. Then use a secondary class to apply overrides for padding and image.
 
 Loving the super swanky button hovers! 🤘
+
+## Week 4 ----------------------
+
+Code Quality: 2.5/3
+Design: .75/1
+File Organization & Commits: 1/1
+Total: 4.25/5
+
+- Make sure to review your CSS to insure it is neat and organized, including:
+  - remove empty lines inside of CSS rules
+  - there should be a space between the selector and the opening curly bracket `{`
+  - there should be a space between each ruleset
+  - double check indentation
+- Make sure to apply the `Ubuntu` font across the entire site!
+- Apply base consistent margin to all heading and type like in our in class tutorial: `margin: 0 0 1.5rem;`
+- You should include a base style for all `<a>`
