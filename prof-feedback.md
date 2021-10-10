@@ -34,3 +34,16 @@ Total: 4.25/5
 - Make sure to apply the `Ubuntu` font across the entire site!
 - Apply base consistent margin to all heading and type like in our in class tutorial: `margin: 0 0 1.5rem;`
 - You should include a base style for all `<a>`
+
+## Week 5 ----------------------
+
+Code Quality: 1/3
+Design: .5/1
+File Organization & Commits: 1/1
+Total: 2.5/5
+
+- You should be working in a mobile first responsive headspace. Start with mobile and get it perfect before the using media queries to adjust the layout for the large screen sizes. You layout is not responsive.
+- Use the `.container` class we created in class to help create a more consistent layout. You have created new containers which are inconsistent and that unnecessarily recreate the same code, which is inefficient.
+- Avoid setting fixed widths, margins, and paddings to move elements around. This causes your layout to be rigid and inflexible. Notice how some stuff is sticking off the side of the screen? This is the reason
+- Use `float: right;` to align things to the right instead.
+Part 2 is incomplete.
