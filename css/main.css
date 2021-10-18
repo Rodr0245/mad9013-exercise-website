@@ -44,7 +44,7 @@ a {
     width: 50%;
 }
 
-.footerDark{
+.footerDark {
     min-width: 23rem;
     background-color: #1c453d;
     padding:1rem;
@@ -297,33 +297,31 @@ small {
     .headmaster {
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
         align-items: center;
+        gap: 0.5rem;
         margin-bottom: 0;
-        padding: .5rem 3rem;
+        padding: .5rem 1.5rem;
     }
     
+    .polished {
+        flex-basis: 10%;
+    }
+
     .polished img {
         margin-right: 1rem;
         padding-top: 0;
     }
 
-    .polished {
-        flex-basis: 10%;
-    }
-
-    .navigation {
-        display: flex;
-        flex-direction: row;
-        justify-content: flex-start;
+    .headmaster ul {
+        display: flex; 
         align-items: center;
         gap: 1rem;
     }
 
-    .navigation li:last-of-type {
-        padding: 0.2rem;
-        margin: 0;
-        margin-left: auto;
-    } 
+    .navigation {
+        flex-grow: 1;
+    }
 
     .navigation li:nth-last-of-type(2) {
         margin-left: auto;
@@ -331,10 +329,11 @@ small {
 
     .footerLight {
         background-color: #1f685a;
-        padding: 1rem 1rem;
+        padding: 1rem 4rem;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
+        text-align: left;
     }
     
     .footerLight img {
@@ -361,6 +360,7 @@ small {
     .footerDark small {
         color: white;
         align-self: center;
+        text-align: left;
     }
     
     .footerDark a { 
@@ -435,13 +435,12 @@ small {
     }
 
     .headmaster {
-        padding: 1rem 10rem;
+        padding: 1rem 5rem;
         text-align: left;
     }
     
     .polished img {
         width: 10%;
-        float: left;
     }
     
     .navigation li {
@@ -452,15 +451,6 @@ small {
 
     .btnT {
         padding: .5rem 2rem;
-        margin-top: 0;
-        float:right;
-    }
-
-    .SIN{
-        line-height: 2rem;
-        padding-left: 1rem;
-        float:right;
-        
     }
 
     .footerLight {
@@ -478,10 +468,10 @@ small {
     .footerDark {
         min-width: 23rem;
         background-color: #1c453d;
-        padding:1rem 15rem;
+        padding:1rem 10rem;
         padding-right: 5rem;
     }
-
+    
     .logoBar {
         display: flex;
         flex-wrap: nowrap;
