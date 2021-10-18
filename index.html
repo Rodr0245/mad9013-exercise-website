@@ -9,45 +9,49 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"> 
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
 <body>
-    <header>
-        <h1 class="float"><a href="/index.html"><img src="/images/logos/logo-polished-color.svg" alt="Logo polished with color."/></a></h1>
-        <nav>
-            <ul class="navigation">
-                <li><a href="#">Platform Tour</a></li>
-                <li><a href="#">Pricing</a></li>
-                <li class="headerUp"><a class="headerFooterB btn" href="#">Sign Up</a></li>
-                <li><a href="#">Sign In</a></li> 
-            </ul>
-        </nav>
+    <header class="headmaster">
+        <h1 class="polished"><a href="/index.html"><img src="/images/logos/logo-polished-color.svg" alt="Logo polished with color."/></a></h1>
+        <ul class="navigation">
+            <li><a href="#">Platform Tour</a></li>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Sign In</a></li> 
+            <li><a class=" btn btnT" href="#">Sign Up</a></li>
+        </ul>
     </header>
     <Main>
-        <section class='banner'>
-            <h2 class=h2f>Community feel. Professional look. </h2>
+        <header class="banner bannerBackground">
+            <h2 class="banner-headline">Community feel. Professional look. </h2>
             <p>Create your team's new look with out simple, fast brand builder.</p>
-            <p> <a class='btn' href="#">Sign Up</a></p>  
-        </section>
-            <ul>          
+            <a class='btn' href="#">Sign Up</a> 
+        </header>
+        <div>
+            <ul class="logoBar preview">          
                 <li><a href="#"><img src="/images/logos/logo-ns.svg" alt="North Star logo"></a></li>
                 <li><a href="#"><img src="/images/logos/logo-tt.svg" alt="TopTable logo"></a></li>
                 <li><a href="#"><img src="/images/logos/logo-qc.svg" alt="Quidditch Canada logo"></a></li>
                 <li><a href="#"><img src="/images/logos/logo-met.svg" alt="Met logo"></a></li>                      
             </ul>
+        </div>    
         <section class="preview">
-            <h2>Design your brand from to to bottom.</h2>
-            <p>With the Polished brand builder, you can create any asset your team could need. From logos, to jerseys, to merchandise, to advertisements. With simple templates, a variety of pre-designed elements, and an easy to use platform, professional level sports branding is at your fingertips!</p>
-            <img src="/images/product/laptop-platform.png" alt="Laptop platform">
+            <div class="container container-text">
+                <h2>Design your brand from to to bottom.</h2>
+                <p>With the Polished brand builder, you can create any asset your team could need. From logos, to jerseys, to merchandise, to advertisements. With simple templates, a variety of pre-designed elements, and an easy to use platform, professional level sports branding is at your fingertips!</p>
+                <img src="/images/product/laptop-platform.png" alt="Laptop platform">
+            </div>
         </section>
-        <section class="banner bannerFooter">               
-            <h2 class="h2f h2s">Join now and take your team to the next level.</h2>
+        <section class="banner banner-background bannerFooter">               
+            <h2 class="banner-headline">Join now and take your team to the next level.</h2>
             <a class='btn btnWhite' href="#">Sign Up</a>
         </section>
-    </main>           
+    </main>       
     <footer>
         <div class="footerLight">
-            <a href="/index.html"><img src="/images/logos/logo-polished-white.svg" alt="White polished logo"></a>
-            <a class="footerB headerFooterB btn" href="#">Sign Up</a>
+            <a href="/index.html"><img src="/images/logos/logo-polished-white.svg" alt="White polished logo"></a></h1>
+            <p><a class="footerB btn" href="#">Sign Up</a></p>
         </div>
         <div class="footerDark">
             <small>&copy; 2021 Algonquin College</small>
@@ -56,7 +60,7 @@
                 <li><a href="#">Terms of Service</a></li>
             </ul>
         </div>
-    </footer>    
+    </footer>      
 </body>
 </html>
 
