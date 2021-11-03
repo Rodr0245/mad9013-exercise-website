@@ -47,3 +47,16 @@ Total: 2.5/5
 - Avoid setting fixed widths, margins, and paddings to move elements around. This causes your layout to be rigid and inflexible. Notice how some stuff is sticking off the side of the screen? This is the reason
 - Use `float: right;` to align things to the right instead.
 Part 2 is incomplete.
+
+## Week 6 ----------------------
+
+Code Quality: 2.75/3
+Design: .75/1
+File Organization & Commits: 1/1
+Subtotal: 4.5/5
+
+Late pentaly: -30%;
+
+Total: 3/5
+
+- instead of setting a large amount of paddings on the sides of the header and footer, use our `.container` class to keep a consistent max-width and centering
