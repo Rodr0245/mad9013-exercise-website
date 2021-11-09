@@ -81,6 +81,12 @@ a {
     min-width: 25rem;
 }
 
+.bannerBackgroundTour {
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/banners/hero-platform.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
 .banner {
     color: white;
     font-family:'Ubuntu', sans-serif;; 
@@ -245,6 +251,57 @@ small {
     font-family: 'Ubuntu', sans-serif;;
 }
 
+.split{
+    display: grid;
+    grid-template-rows: repeat(auto-fit, 1fr);
+    grid-template-columns: 1fr;
+    padding: 0 2rem;
+    justify-items: center;
+    grid-gap: 2rem;
+}
+
+.split-content {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-areas: 
+    'image' 
+    'text';
+    text-align: center;
+    grid-gap: 2rem;
+}
+
+.split-content:last-of-type {
+    padding-bottom: 10rem;
+}
+
+.split-header {
+    text-align: center;
+    font-weight: lighter;
+    text-transform: uppercase;
+    padding-top: 2rem;
+    font-size: 1.5rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+
+.split-image {
+    grid-area: image;
+}
+
+.split-text {
+    grid-area: text; 
+    text-align: left;
+}
+
+.split-text p:first-of-type {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.split-content img{
+    width: 100%;
+    min-width: 10rem;
+}
 
 @media only screen and (min-width: 0em) {}
     /* Phone or small */
@@ -387,6 +444,40 @@ small {
     .logoBar img {
         width: 80%;
     }
+
+    .split{
+        grid-template-rows: repeat(4, 1fr);
+        grid-template-columns: minmax(10rem, 1fr);
+        padding: 0 5rem;
+    }
+
+    .split-content {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+        'image text';
+        align-items: center;
+        justify-items: center;
+        grid-gap: 5rem;
+        text-align: left;
+    }
+
+    .split-content:nth-child(2) {
+        grid-template-areas: 
+        'text image';
+        text-align: right;
+    }
+    
+    .split-content:last-of-type {
+        grid-template-areas: 
+        'text image';
+        padding-bottom: 10rem;
+        text-align: right;
+    }
+
+    .split-text p:first-of-type {
+        font-weight: bold;
+        font-size: 1.5rem;
+    }
 }
 
 
@@ -490,5 +581,9 @@ small {
         width: 50%;
     }
 
+    .split{
+        padding: 0 15rem;
+    }
+    
 }
     /* Large table and Desktops/laptops */
