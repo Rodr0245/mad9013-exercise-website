@@ -2,6 +2,9 @@ html, body {
     margin: 0;
     padding: 0;
     font-family: 'Ubuntu', sans-serif;
+    max-width: 100%;
+    overflow-x: hidden;
+    
 }
 
 a {
@@ -13,7 +16,7 @@ a {
 
 .headmaster {
     text-align: center;
-    min-width: 25rem;
+    min-width: 20rem;
 }
 .polished {
     margin: 0;
@@ -37,7 +40,7 @@ a {
     background-color: #1f685a;
     padding: 2rem;
     text-align: center;
-    min-width: 21rem;
+    min-width: 15rem;
 }
 
 .footerLight img {
@@ -45,7 +48,7 @@ a {
 }
 
 .footerDark {
-    min-width: 23rem;
+    min-width: 20rem;
     background-color: #1c453d;
     padding:1rem;
     padding-top: 2rem;
@@ -107,14 +110,13 @@ a {
     padding:5rem;
     background-size:cover;
     background-position: center;
-    min-width: 15rem;
+    min-width: 10rem;
 }
 
 .logoBar {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row; 
-    min-width: 15rem;
     gap: 2rem;
 }
 
@@ -191,7 +193,7 @@ a {
 
 .preview {
     text-align: center;
-    min-width: 15rem;
+    min-width: 10rem;
     padding: 1rem 4rem 1rem 5rem;
 }
 
@@ -298,10 +300,165 @@ small {
     font-size: 1.5rem;
 }
 
+
 .split-content img{
     width: 100%;
     min-width: 10rem;
 }
+
+.pricing-section {
+    padding: 1rem 1.5rem;
+}
+
+.pricing-section h2 {
+    color: #1f685a;
+    font-weight: light;
+}
+
+.table-scroller {
+    max-width: 100%;
+    overflow-x: scroll;
+    padding: 2rem;
+}
+
+.table-scroller th{
+    text-align: left;
+}
+
+.pricing {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    justify-items: center;
+    padding-bottom: 4rem;
+    border-collapse: collapse;
+}
+
+#priceText {
+    padding-top: 3rem;
+}
+
+tbody tr:first-of-type th {
+    font-size: 1rem;
+}
+
+tbody tr:first-of-type th:nth-of-type(3) {
+    color: #1f685a;
+}
+
+tbody tr th:nth-of-type(2) {
+    border-top-left-radius : .5rem;
+    border-top-right-radius : .5rem;
+    padding-top: 2rem;
+}
+
+tbody tr th:nth-of-type(3) {
+    border-top-left-radius : .5rem;
+    border-top-right-radius : .5rem;
+    padding-top: 2rem;
+}
+
+tbody tr th:nth-of-type(4) {
+    border-top-left-radius : .5rem;
+    border-top-right-radius : .5rem;
+    padding-top: 2rem;
+}
+
+tbody tr:nth-of-type(7) td:nth-of-type(1) {
+    padding-bottom: 2rem;
+}
+
+tbody tr:nth-of-type(7) td:nth-of-type(2) {
+    border-bottom-left-radius : .5rem;
+    border-bottom-right-radius : .5rem;
+    padding-bottom: 2rem;
+}
+
+tbody tr:nth-of-type(7) td:nth-of-type(3) {
+    padding-bottom: 2rem;
+}
+
+tbody tr:nth-of-type(7) td p:first-of-type {
+    font-size: .8rem;
+}
+
+.midCol {
+    color: #1f685a ;
+    background:rgb(244, 245, 244);
+}
+
+.midCol:first-child {
+    font-size: 3rem;
+}
+
+tbody tr th:nth-of-type(2),
+tbody tr th:nth-of-type(3),
+tbody tr th:nth-of-type(4) {
+    text-align: center;
+    line-height: 0.5rem;
+}
+
+tbody tr th:nth-of-type(2) p:first-of-type,
+tbody tr th:nth-of-type(3) p:first-of-type,
+tbody tr th:nth-of-type(4) p:first-of-type {
+    margin-bottom: 0;
+    font-size: 2.5rem;
+}
+
+tbody tr th:nth-of-type(2) p:last-of-type,
+tbody tr th:nth-of-type(3) p:last-of-type,
+tbody tr th:nth-of-type(4) p:last-of-type {
+    font-size: .6rem;
+    padding: 1rem ;
+    font-weight: lighter;
+}
+
+.dollarSign {
+    font-size: small;
+    display: grid;
+    padding-right: 3.5rem;
+    font-weight: lighter;
+}
+
+.row th,
+.row td {
+    border-top: 1px solid rgb(233, 231, 231);
+    padding: 1rem;
+}
+
+.row th,
+.row td 
+th:not(.firstRow) {
+    padding-left: 0;
+}
+
+#priceText,
+.row th {
+    font-size: .8rem;
+    padding-right: 5rem;
+}
+
+.tm {
+    font-size: smaller;
+}
+
+tbody td {
+    text-align: center;
+    font-size: .8rem;
+}
+
+.btn {
+    padding: .5rem 2rem;
+}
+
+.btnGreen {
+    color: white;
+    background: #319b86;
+}
+
+
+
+
 
 @media only screen and (min-width: 0em) {}
     /* Phone or small */
