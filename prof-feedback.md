@@ -60,3 +60,36 @@ Late pentaly: -30%;
 Total: 3/5
 
 - instead of setting a large amount of paddings on the sides of the header and footer, use our `.container` class to keep a consistent max-width and centering
+
+## Week 7 ----------------------
+
+Code Quality: 2.5/3
+Design: 1/1
+File Organization & Commits: 1/1
+Subtotal: 4.5/5
+
+Late Penalty: -30%
+
+Total: 3/5
+
+- `<h4 class="split-header">The polished+ platform</h4>` should be `h2` to follow proper heading structure
+- content should be ordered for mobile reading, (text, image, text, image, etc.) and then reordered on large screen sizes.
+
+## Week 9 ----------------------
+
+Code Quality: 2/3
+Design: .75/1
+File Organization & Commits: 1/1
+Subtotal: 3.75/5
+
+Late Penalty: -30%
+
+Total: 2.25/5
+
+- Missing `thead`. Should contain a `tr` with the Basic, Premium, and Ultra content, but not the pricing info. That should be in a separate `tr` in the `tbody`
+- `<span class="dollarSign">$</span>` --> `<sup class="dollarSign">$</sup>`
+- `td` should not have scope. Only `th` should have scope.
+- Class of `.row` is redundant as you could just target the `tr` which represents rows
+- You should avoid writing in all caps in HTML as it is bad for accessibility and SEO. Instead, you should write in normal sentence case and use `text-transform: uppercase;` to make the text appear all caps.
+- `button` should be `<a class="btn">`
+- Font size should not be reduced
