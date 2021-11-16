@@ -456,6 +456,74 @@ tbody td {
     background: #319b86;
 }
 
+.form-bg {
+    background:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/images/banners/hockey-goalie.jpg);
+    background-size:cover;
+    background-position: center;
+}
+
+.form-grid {
+    border-radius: .5rem; 
+    background: white; 
+    display: grid;
+    grid-template-columns: minmax(auto, 85%);
+    grid-template-rows: repeat(10, 3.5rem);
+    align-items: center;
+    padding: 1rem;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    max-width: 40%;
+    min-width: 15rem;
+    margin: 0 auto;
+}
+
+.form-item input{
+    display: block;
+    width: 100%;
+    border-radius: 2rem;
+    border: .1rem solid rgb(235,233, 233);
+    padding: .6rem;
+}
+
+.form-item input[type="checkbox"] {
+    display: none;
+}
+
+.form-item label[for="permission"] {
+    font-size: smaller;
+}
+
+.form-item {
+    margin-top: 9rem;
+}
+
+.form-header{
+    color: #1f685a;
+    text-transform: none;
+    margin-top: 1rem;
+}
+
+.form-grid a{
+    text-decoration: underline;
+}
+
+.leftright {
+    padding-top: 5rem;
+    display: grid;
+    grid-gap: 1rem;
+}
+
+.name input{
+    display: block;
+    width: 100%;
+    border-radius: 2rem;
+    border: .1rem solid rgb(235,233, 233);
+    padding: .6rem;
+}
+
+
+
+
+
 
 
 
@@ -635,6 +703,24 @@ tbody td {
         font-weight: bold;
         font-size: 1.5rem;
     }
+
+    .checkbox {
+        display: flex;
+    }
+
+    .form-item input[type="checkbox"] {
+        display: block;
+        width: fit-content;
+        margin-right: 1rem;
+    }
+
+    .form-item {
+        margin-top: 9rem;
+    }
+
+    .form-header {
+        margin-top: 2rem;
+    }
 }
 
 
@@ -741,6 +827,28 @@ tbody td {
     .split{
         padding: 0 15rem;
     }
+
+    .form-grid {
+        grid-template-columns: minmax(auto, 95%);
+        grid-template-rows: repeat(9, 3.5rem);
+        align-items: center;
+    }
+
+    .leftright {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 3rem;
+        margin-top: 0;
+        padding-top: 2rem;
+    }
+
+    .form-item {
+        margin-top: 2rem;
+    }
     
+    .form-header {
+        margin-top: 3rem;
+    }
+
 }
     /* Large table and Desktops/laptops */
