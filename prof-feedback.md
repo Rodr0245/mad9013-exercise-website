@@ -93,3 +93,16 @@ Total: 2.25/5
 - You should avoid writing in all caps in HTML as it is bad for accessibility and SEO. Instead, you should write in normal sentence case and use `text-transform: uppercase;` to make the text appear all caps.
 - `button` should be `<a class="btn">`
 - Font size should not be reduced
+
+## Week 9 ----------------------
+
+Code Quality: 2.5/3
+Design: 1/1
+File Organization & Commits: 1/1
+Subtotal: 4.5/5
+
+Late Penalty: -30%
+
+Total: 3/5
+
+- All `input` need a `label` with text content in it. This is important for accessibility. To visually hide the labels, use the `screen-reader-text` styles discussed in class.
